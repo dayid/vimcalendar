@@ -1,4 +1,155 @@
+01/01	vim: 
+01/02	vim: 
+01/03	vim: 
+01/04	vim: 
+01/05	vim: 
+01/06	vim: 
+01/07	vim: 
+01/08	vim: 
+01/09	vim: 
+01/10	vim: 
+01/11	vim: 
+01/12	vim: 
+01/13	vim: 
+01/14	vim: 
+01/15	vim: 
+01/16	vim: 
+01/17	vim: 
+01/18	vim: 
+01/19	vim: 
+01/20	vim: 
+01/21	vim: 
+01/22	vim: 
+01/23	vim: 
+01/24	vim: 
+01/25	vim: 
+01/26	vim: 
+01/27	vim: 
+01/28	vim: 
+01/29	vim: 
+01/30	vim: 
+01/31	vim: 
+02/01	vim: 
+02/02	vim: 
+02/03	vim: 
+02/04	vim: 
+02/05	vim: 
+02/06	vim: 
+02/07	vim: 
+02/08	vim: 
+02/09	vim: 
+02/10	vim: 
+02/11	vim: 
+02/12	vim: 
+02/13	vim: 
+02/14	vim: 
+02/15	vim: 
+02/16	vim: 
+02/17	vim: 
+02/18	vim: 
+02/19	vim: 
+02/20	vim: 
+02/21	vim: 
+02/22	vim: 
+02/23	vim: 
+02/24	vim: 
+02/25	vim: 
+02/26	vim: 
+02/27	vim: 
+02/28	vim: 
 02/29	vim: g? flips current word (or selection) with ROT13
+03/01	vim: 
+03/02	vim: 
+03/03	vim: 
+03/04	vim: 
+03/05	vim: 
+03/06	vim: 
+03/07	vim: 
+03/08	vim: 
+03/09	vim: 
+03/10	vim: 
+03/11	vim: 
+03/12	vim: 
+03/13	vim: 
+03/14	vim: 
+03/15	vim: 
+03/16	vim: 
+03/17	vim: 
+03/18	vim: 
+03/19	vim: 
+03/20	vim: 
+03/21	vim: 
+03/22	vim: 
+03/23	vim: 
+03/24	vim: 
+03/25	vim: 
+03/26	vim: 
+03/27	vim: 
+03/28	vim: 
+03/29	vim: 
+03/30	vim: 
+03/31	vim: 
+04/01	vim: 
+04/02	vim: 
+04/03	vim: 
+04/04	vim: 
+04/05	vim: 
+04/06	vim: 
+04/07	vim: 
+04/08	vim: 
+04/09	vim: 
+04/10	vim: 
+04/11	vim: 
+04/12	vim: 
+04/13	vim: 
+04/14	vim: 
+04/15	vim: 
+04/16	vim: 
+04/17	vim: 
+04/18	vim: 
+04/19	vim: 
+04/20	vim: 
+04/21	vim: 
+04/22	vim: 
+04/23	vim: 
+04/24	vim: 
+04/25	vim: 
+04/26	vim: 
+04/27	vim: 
+04/28	vim: 
+04/29	vim: 
+04/30	vim: 
+05/01	vim: 
+05/02	vim: 
+05/03	vim: 
+05/04	vim: 
+05/05	vim: 
+05/06	vim: 
+05/07	vim: 
+05/08	vim: 
+05/09	vim: 
+05/10	vim: 
+05/11	vim: 
+05/12	vim: 
+05/13	vim: 
+05/14	vim: 
+05/15	vim: 
+05/16	vim: 
+05/17	vim: 
+05/18	vim: 
+05/19	vim: 
+05/20	vim: 
+05/21	vim: 
+05/22	vim: 
+05/23	vim: 
+05/24	vim: 
+05/25	vim: 
+05/26	vim: 
+05/27	vim: 
+05/28	vim: 
+05/29	vim: 
+05/30	vim: 
+05/31	vim: 
 06/01	vim: quit without saving changes with :q!, quit all windows without saving with :qa!
 06/02	vim: "xyy yanks to buffer x; "xnyy yanks next n lines to buffer x
 06/03	vim: xP pastes buffer x before cursor; xp pastes buffer x after cursor
@@ -57,76 +208,159 @@
 07/26	vim: i begins insert mode at the cursor location; I begins insert mode at the first character of the current line
 07/27	vim: p pastes buffer after cursor; P pastes buffer before cursor
 07/28	vim: use y for yank (copy), d for delete (remove)
-07/29	vim: ^a increases the selected number
-07/30	vim: 
-07/31	
-08/01	
-08/02	
-08/03	
-08/04	
-08/05	
-08/06	
-08/07	
-08/08	
-08/09	
-08/10	
-08/11	
-08/12	
-08/13	
-08/14	
-08/15	
-08/16	
-08/17	
-08/18	
-08/19	
-08/20	
-08/21	
-08/22	
-08/23	
-08/24	
-08/25	
-08/26	
-08/27	
-08/28	
-08/29	
-08/30	
-08/31	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
+07/29	vim: ^a increases the selected number, ^x decreases. n^a/n^x increases/decreases by n
+07/30	vim: ^o goes to the previous /pattern search; ^i goes to the next
+07/31	vim: :e file opens file
+08/01	vim: when using multiple windows: ^w[hjkl] moves left/down/up/right
+08/02	vim: :reg[isters] and :di[splay] show numbered and named buffers
+08/03	vim: 
+08/04	vim: 
+08/05	vim: 
+08/06	vim: 
+08/07	vim: 
+08/08	vim: 
+08/09	vim: 
+08/10	vim: 
+08/11	vim: 
+08/12	vim: 
+08/13	vim: 
+08/14	vim: 
+08/15	vim: 
+08/16	vim: 
+08/17	vim: 
+08/18	vim: 
+08/19	vim: 
+08/20	vim: 
+08/21	vim: 
+08/22	vim: 
+08/23	vim: 
+08/24	vim: 
+08/25	vim: 
+08/26	vim: 
+08/27	vim: 
+08/28	vim: 
+08/29	vim: 
+08/30	vim: 
+08/31	vim: 
+09/01	vim: 
+09/02	vim: 
+09/03	vim: 
+09/04	vim: 
+09/05	vim: 
+09/06	vim: 
+09/07	vim: 
+09/08	vim: 
+09/09	vim: 
+09/10	vim: 
+09/11	vim: 
+09/12	vim: 
+09/13	vim: 
+09/14	vim: 
+09/15	vim: 
+09/16	vim: 
+09/17	vim: 
+09/18	vim: 
+09/19	vim: 
+09/20	vim: 
+09/21	vim: 
+09/22	vim: 
+09/23	vim: 
+09/24	vim: 
+09/25	vim: 
+09/26	vim: 
+09/27	vim: 
+09/28	vim: 
+09/29	vim: 
+09/30	vim: 
+10/01	vim: 
+10/02	vim: 
+10/03	vim: 
+10/04	vim: 
+10/05	vim: 
+10/06	vim: 
+10/07	vim: 
+10/08	vim: 
+10/09	vim: 
+10/10	vim: 
+10/11	vim: 
+10/12	vim: 
+10/13	vim: 
+10/14	vim: 
+10/15	vim: 
+10/16	vim: 
+10/17	vim: 
+10/18	vim: 
+10/19	vim: 
+10/20	vim: 
+10/21	vim: 
+10/22	vim: 
+10/23	vim: 
+10/24	vim: 
+10/25	vim: 
+10/26	vim: 
+10/27	vim: 
+10/28	vim: 
+10/29	vim: 
+10/30	vim: 
+10/31	vim: 
+11/01	vim: 
+11/02	vim: 
+11/03	vim: 
+11/04	vim: 
+11/05	vim: 
+11/06	vim: 
+11/07	vim: 
+11/08	vim: 
+11/09	vim: 
+11/10	vim: 
+11/11	vim: 
+11/12	vim: 
+11/13	vim: 
+11/14	vim: 
+11/15	vim: 
+11/16	vim: 
+11/17	vim: 
+11/18	vim: 
+11/19	vim: 
+11/20	vim: 
+11/21	vim: 
+11/22	vim: 
+11/23	vim: 
+11/24	vim: 
+11/25	vim: 
+11/26	vim: 
+11/27	vim: 
+11/28	vim: 
+11/29	vim: 
+11/30	vim: 
+12/01	vim: 
+12/02	vim: 
+12/03	vim: 
+12/04	vim: 
+12/05	vim: 
+12/06	vim: 
+12/07	vim: 
+12/08	vim: 
+12/09	vim: 
+12/10	vim: 
+12/11	vim: 
+12/12	vim: 
+12/13	vim: 
+12/14	vim: 
+12/15	vim: 
+12/16	vim: 
+12/17	vim: 
+12/18	vim: 
+12/19	vim: 
+12/20	vim: 
+12/21	vim: 
+12/22	vim: 
+12/23	vim: 
+12/24	vim: 
+12/25	vim: 
+12/26	vim: 
+12/27	vim: 
+12/28	vim: 
+12/29	vim: 
+12/30	vim: 
+12/31	vim: 
