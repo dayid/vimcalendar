@@ -43,7 +43,7 @@
 07/12	vim: jump to matching symbol using % - (for (), {}, etc)
 07/13	vim: replace the current character with r - use R to replace multiple characters
 07/14	vim: use :help [key] to find out what key does - also good for investigating commands
-07/15	vim: use :set ic to ignore-case when doing pattern searches with / and ?
+07/15	vim: use \c with pattern-search to search case-insensitively /pattern\c ?pattern\c - also :set ic to ignore-case
 07/16	vim: ^ws split horizontal; ^wv split vertical; :split file - open file in split horizontal; :vsplit file - open file in vertical split
 07/17	vim: ^w^w cycles through present windows
 07/18	vim: ^w_ maximizes current window - ^w= makes all windows the same size
@@ -51,17 +51,82 @@
 07/20	vim: open files in tabs with vim -r file1 file2 - or use :tabe file
 07/21	vim: go to next tab with :tabn or gt - go to previous tab with :tabp or gT - go to tab number n with ngt
 07/22	vim: :set spell to turn on spellchecking (:set nospell to turn off) - on a word, use z= to get suggestions from dictionary
-07/23	
-07/24	
-07/25	
-07/26	
-07/27	
-07/28	
-07/29	
-07/30	
+07/23	vim: both ^wc and :hide will close the current window; ^wo or :only will close all but the current window
+07/24	vim: :r file inserts the contents of file; :r !command inserts the output of the command; :r inserts entire current file again
+07/25	vim: o opens insert mode and creates a line below the current; O opens insert mode and creates a line above the current
+07/26	vim: i begins insert mode at the cursor location; I begins insert mode at the first character of the current line
+07/27	vim: p pastes buffer after cursor; P pastes buffer before cursor
+07/28	vim: use y for yank (copy), d for delete (remove)
+07/29	vim: ^a increases the selected number
+07/30	vim: 
 07/31	
+08/01	
+08/02	
+08/03	
+08/04	
+08/05	
+08/06	
+08/07	
+08/08	
+08/09	
+08/10	
+08/11	
+08/12	
+08/13	
+08/14	
+08/15	
+08/16	
+08/17	
+08/18	
+08/19	
+08/20	
+08/21	
+08/22	
+08/23	
+08/24	
+08/25	
+08/26	
+08/27	
+08/28	
+08/29	
+08/30	
+08/31	
 	
 	
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

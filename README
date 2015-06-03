@@ -1,0 +1,5 @@
+vim is great; however, it has so many features - I often forget some.
+
+This is a calendar file meant to be read by calendar(1) to send daily-reminders 
+about features of vim. The intent here is to provide a gentle reminder of 
+features so that they become more engrained in my usage.
