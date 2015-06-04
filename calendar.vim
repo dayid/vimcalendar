@@ -1,4 +1,4 @@
-01/01	vim: 
+01/01	vim: Read "Learning th vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
 01/02	vim: 
 01/03	vim: 
 01/04	vim: 
@@ -17,7 +17,7 @@
 01/17	vim: 
 01/18	vim: 
 01/19	vim: 
-01/20	vim: 
+01/20	vim: & matches the string being replaced :%s/foo/&, bar/g replaces "foo" with "foo, bar"
 01/21	vim: 
 01/22	vim: 
 01/23	vim: 
@@ -27,7 +27,7 @@
 01/27	vim: 
 01/28	vim: 
 01/29	vim: 
-01/30	vim: 
+01/30	vim: :ab abbr phrase creates an abbreviation - upon typing abbreviation and pressing a non-alphanumeric it changes - :ab lists
 01/31	vim: 
 02/01	vim: 
 02/02	vim: 
@@ -38,7 +38,7 @@
 02/07	vim: 
 02/08	vim: 
 02/09	vim: 
-02/10	vim: 
+02/10	vim: repeat the last substitution with :s//~/
 02/11	vim: 
 02/12	vim: 
 02/13	vim: 
@@ -49,7 +49,7 @@
 02/18	vim: 
 02/19	vim: 
 02/20	vim: 
-02/21	vim: 
+02/21	vim: List mapped characters with :map
 02/22	vim: 
 02/23	vim: 
 02/24	vim: 
@@ -60,7 +60,7 @@
 02/29	vim: g? flips current word (or selection) with ROT13
 03/01	vim: 
 03/02	vim: 
-03/03	vim: 
+03/03	vim: if you did a single line substitution but now want it everywhere :%&g (:%[previous]g[lobal])
 03/04	vim: 
 03/05	vim: 
 03/06	vim: 
@@ -155,9 +155,9 @@
 06/03	vim: xP pastes buffer x before cursor; xp pastes buffer x after cursor
 06/04	vim: There is more than one visual mode:^v, v, and V
 06/05	vim: use commands with motions: w goes to next word, 4w goes 4 words over, d4w delete from cursor to 4 words over
-06/06	vim: use correct to fix mispellings without explicitly going into insert mode: cw corrects the current word
+06/06	vim: correct fixes mistakes without explicitly going into insert mode: cw corrects the current word
 06/07	vim: use ex commands like :! to access shell commands; :!ls
-06/08	vim: use repeat to do mundane tasks again it's .
+06/08	vim: use repeat to do mundane tasks again it's: .
 06/09	vim: mx marks name x; 'x goes to first character of marked line x; `x goes to character marked by x; `` goes to last position
 06/10	vim: open a file to a specific line number n with vi +n file
 06/11	vim: open a file to a first-occurence of a pattern with vi +/pattern file
@@ -182,14 +182,14 @@
 06/30	vim: record macro named x with qx (q stops recording); replay macro with @x - replay again with @@ - replay n times with n@@ or n@x
 07/01	vim: zo opens fold, zc closes fold, zn opens all folds, zm closes all folds
 07/02	vim: undo a previous action with u - redo with ^r (or :red[o])
-07/03	vim: stop using arrows: use h j k l to move left, down, up, right
+07/03	vim: h, j, k, l move left, down, up, right
 07/04	vim: jump around the current screen using L (last line), H (top/head line), M (middle line)
 07/05	vim: + moves to the first character of the next line (so does [enter]); - moves to first character of previous line
 07/06	vim: in insert mode, ^w deletes the previous word
 07/07	vim: in insert mode, ^i inserts a tab
 07/08	vim: save a session with :mksession ~/session.vim; re-open a session with vim -S ~/session.vim
 07/09	vim: when opening multiple files (vim file1 file2) use :n to go to the next, and :prev to go to the previous
-07/10	vim: use @: to repeat prior : command (:w, :s/foo/bar/, etc)
+07/10	vim: @: repeats prior : command (:w, :s/foo/bar/, etc)
 07/11	vim: after entering ex mode with : - use ^d to attempt to auto-complete (in this mode, also <TAB>)
 07/12	vim: jump to matching symbol using % - (for (), {}, etc)
 07/13	vim: replace the current character with r - use R to replace multiple characters
@@ -207,15 +207,15 @@
 07/25	vim: o opens insert mode and creates a line below the current; O opens insert mode and creates a line above the current
 07/26	vim: i begins insert mode at the cursor location; I begins insert mode at the first character of the current line
 07/27	vim: p pastes buffer after cursor; P pastes buffer before cursor
-07/28	vim: use y for yank (copy), d for delete (remove)
-07/29	vim: ^a increases the selected number, ^x decreases. n^a/n^x increases/decreases by n
+07/28	vim: y yanks (copy), d for delete (remove)
+07/29	vim: ^a and ^x increase/decrese the selected number. n^a/n^x increases/decreases by n
 07/30	vim: ^o goes to the previous /pattern search; ^i goes to the next
 07/31	vim: :e file opens file
 08/01	vim: when using multiple windows: ^w[hjkl] moves left/down/up/right
 08/02	vim: :reg[isters] and :di[splay] show numbered and named buffers
-08/03	vim: 
-08/04	vim: 
-08/05	vim: 
+08/03	vim: replace foo with bar :s/foo/bar/ entire line :s/foo/bar/g entire file :%s/foo/bar/g entire file/confirm :%s/foo/bar/gc
+08/04	vim: Q enters ex mode; :vi[sual] returns you to vi
+08/05	vim: like :wq, :x writes and quits - unlike :wq - it only writes if changes were made (file modification times may not change)
 08/06	vim: 
 08/07	vim: 
 08/08	vim: 
@@ -327,7 +327,7 @@
 11/22	vim: 
 11/23	vim: 
 11/24	vim: 
-11/25	vim: 
+11/25	vim: :g/pattern/s/old/new/g only replaces old with new on lines that match pattern
 11/26	vim: 
 11/27	vim: 
 11/28	vim: 
@@ -336,8 +336,8 @@
 12/01	vim: 
 12/02	vim: 
 12/03	vim: 
-12/04	vim: 
-12/05	vim: 
+12/04	vim:  
+12/05	vim: Create character map with :map x sequence (x=character, sequence=commands) - undo with :unmap x (gKqVv^a^k^o^w^x_*\= available)
 12/06	vim: 
 12/07	vim: 
 12/08	vim: 
@@ -345,22 +345,22 @@
 12/10	vim: 
 12/11	vim: 
 12/12	vim: 
-12/13	vim: 
+12/13	vim: x removes the currently highlighted character (4x removes next 4 characters, etc), X removes the prior character
 12/14	vim: 
 12/15	vim: 
 12/16	vim: 
 12/17	vim: 
 12/18	vim: 
-12/19	vim: 
+12/19	vim: D deletes to end of line (like d$)
 12/20	vim: 
 12/21	vim: 
 12/22	vim: 
 12/23	vim: 
-12/24	vim: 
+12/24	vim: K looks up a manual page for the currently highlighted word
 12/25	vim: 
 12/26	vim: 
-12/27	vim: 
+12/27	vim: :g/old/s//new/g is the same as :%s/old/new/g
 12/28	vim: 
 12/29	vim: 
 12/30	vim: 
-12/31	vim: 
+12/31	vim: ^^ (ctrl+shift+6) switches to the previous file currently open (like :prev)
