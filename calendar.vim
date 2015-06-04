@@ -1,4 +1,4 @@
-01/01	vim: Read "Learning th vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
+01/01	vim: Read "Learning the vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
 01/02	vim: 
 01/03	vim: 
 01/04	vim: 
@@ -9,7 +9,7 @@
 01/09	vim: 
 01/10	vim: 
 01/11	vim: 
-01/12	vim: 
+01/12	vim: :colo[rscheme] scheme changes colours (blue darkblue default delek desert elflord evening koehler morning murphy pablo peachpuff ron shine slate torte zellner)
 01/13	vim: 
 01/14	vim: 
 01/15	vim: 
@@ -107,7 +107,7 @@
 04/16	vim: 
 04/17	vim: 
 04/18	vim: 
-04/19	vim: 
+04/19	vim: J joins the next line to the current - same as :j
 04/20	vim: 
 04/21	vim: 
 04/22	vim: 
@@ -124,7 +124,7 @@
 05/03	vim: 
 05/04	vim: 
 05/05	vim: 
-05/06	vim: 
+05/06	vim: :!! repeats the last system command done
 05/07	vim: 
 05/08	vim: 
 05/09	vim: 
@@ -135,7 +135,7 @@
 05/14	vim: 
 05/15	vim: 
 05/16	vim: 
-05/17	vim: 
+05/17	vim: xp - quickly transpose two letters (thier to their, etc)
 05/18	vim: 
 05/19	vim: 
 05/20	vim: 
@@ -144,15 +144,15 @@
 05/23	vim: 
 05/24	vim: 
 05/25	vim: 
-05/26	vim: 
+05/26	vim: gJ joins the next line to the current without adding a space - same as :j!
 05/27	vim: 
 05/28	vim: 
-05/29	vim: 
+05/29	vim: e! re-opens the current file in the state of its last write
 05/30	vim: 
 05/31	vim: 
 06/01	vim: quit without saving changes with :q!, quit all windows without saving with :qa!
 06/02	vim: "xyy yanks to buffer x; "xnyy yanks next n lines to buffer x
-06/03	vim: xP pastes buffer x before cursor; xp pastes buffer x after cursor
+06/03	vim: nP pastes buffer n before cursor; np pastes buffer n after cursor
 06/04	vim: There is more than one visual mode:^v, v, and V
 06/05	vim: use commands with motions: w goes to next word, 4w goes 4 words over, d4w delete from cursor to 4 words over
 06/06	vim: correct fixes mistakes without explicitly going into insert mode: cw corrects the current word
@@ -178,7 +178,7 @@
 06/26	vim: repeat a pattern search with n - repeat it in the opposite direction with N
 06/27	vim: append to end of current line with A - append after cursor position with a
 06/28	vim: call vi as view to be in read-only mode
-06/29	vim: write out a file and quit using ZZ or :wq
+06/29	vim: :wq writes out file and quits (ZZ or :x only write if changes were made)
 06/30	vim: record macro named x with qx (q stops recording); replay macro with @x - replay again with @@ - replay n times with n@@ or n@x
 07/01	vim: zo opens fold, zc closes fold, zn opens all folds, zm closes all folds
 07/02	vim: undo a previous action with u - redo with ^r (or :red[o])
@@ -215,28 +215,28 @@
 08/02	vim: :reg[isters] and :di[splay] show numbered and named buffers
 08/03	vim: replace foo with bar :s/foo/bar/ entire line :s/foo/bar/g entire file :%s/foo/bar/g entire file/confirm :%s/foo/bar/gc
 08/04	vim: Q enters ex mode; :vi[sual] returns you to vi
-08/05	vim: like :wq, :x writes and quits - unlike :wq - it only writes if changes were made (file modification times may not change)
+08/05	vim: like :wq, :x (or ZZ) writes and quits - unlike :wq, it only writes if changes were made (file modification times may not change)
 08/06	vim: 
 08/07	vim: 
 08/08	vim: 
 08/09	vim: 
 08/10	vim: 
 08/11	vim: 
-08/12	vim: 
+08/12	vim: :TOhtml creates html of current file in a new file - including your current syntax-highlighting style
 08/13	vim: 
 08/14	vim: 
 08/15	vim: 
 08/16	vim: 
 08/17	vim: 
 08/18	vim: 
-08/19	vim: 
+08/19	vim: ^wr rotates windows right/down - ^wR rotates opposite
 08/20	vim: 
 08/21	vim: 
 08/22	vim: 
 08/23	vim: 
 08/24	vim: 
 08/25	vim: 
-08/26	vim: 
+08/26	vim: > indents a line (or highlighted group of lines), < outdents/shifts left
 08/27	vim: 
 08/28	vim: 
 08/29	vim: 
@@ -255,7 +255,7 @@
 09/11	vim: 
 09/12	vim: 
 09/13	vim: 
-09/14	vim: 
+09/14	vim: qN (capital) appends to register n (macros)
 09/15	vim: 
 09/16	vim: 
 09/17	vim: 
@@ -286,7 +286,7 @@
 10/12	vim: 
 10/13	vim: 
 10/14	vim: 
-10/15	vim: 
+10/15	vim: Y yanks the current line - like yy
 10/16	vim: 
 10/17	vim: 
 10/18	vim: 
@@ -303,7 +303,7 @@
 10/29	vim: 
 10/30	vim: 
 10/31	vim: 
-11/01	vim: 
+11/01	vim: C corrects from cursor position to the end of current line - like c$
 11/02	vim: 
 11/03	vim: 
 11/04	vim: 
