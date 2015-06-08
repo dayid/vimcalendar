@@ -114,7 +114,7 @@
 04/23	vim: 
 04/24	vim: 
 04/25	vim: 
-04/26	vim: 
+04/26	vim: try rebinding your CAPSLOCK key to act as 'esc' - it makes changing modes in vim easier - and who uses CAPSLOCK anymore?
 04/27	vim: 
 04/28	vim: 
 04/29	vim: 
@@ -149,7 +149,7 @@
 05/28	vim: 
 05/29	vim: e! re-opens the current file in the state of its last write
 05/30	vim: 
-05/31	vim: 
+05/31	vim: ^ goes to the first character on current line 
 06/01	vim: quit without saving changes with :q!, quit all windows without saving with :qa!
 06/02	vim: "xyy yanks to buffer x; "xnyy yanks next n lines to buffer x
 06/03	vim: nP pastes buffer n before cursor; np pastes buffer n after cursor
@@ -157,25 +157,25 @@
 06/05	vim: use commands with motions: w goes to next word, 4w goes 4 words over, d4w delete from cursor to 4 words over
 06/06	vim: correct fixes mistakes without explicitly going into insert mode: cw corrects the current word
 06/07	vim: use ex commands like :! to access shell commands; :!ls
-06/08	vim: use repeat to do mundane tasks again it's: .
+06/08	vim: . repeats the prior command.
 06/09	vim: mx marks name x; 'x goes to first character of marked line x; `x goes to character marked by x; `` goes to last position
 06/10	vim: open a file to a specific line number n with vi +n file
 06/11	vim: open a file to a first-occurence of a pattern with vi +/pattern file
 06/12	vim: recover older deletions with "np where n is 1-9, 9 being the oldest deletion; cycle through them with u (undo) then . (repeat)
 06/13	vim: whole-screen motions: ^b=back, ^f=forward, ^d=down 1/2, ^u=up 1/2
 06/14	vim: change the case of a letter (word, etc) by highlighting it and using ~
-06/15	vim: re-select the prior visual-mode selection using gv
+06/15	vim: gv re-selects the prior visual-mode selection
 06/16	vim: make current-line be top of screen with z[enter]; make it center with z.; make it bottom with z-
-06/17	vim: go to the beginning of the current line with 0 - first character on that line with ^
-06/18	vim: go to end of the current line with $
+06/17	vim: 0 goes to beginning of current line
+06/18	vim: $ goes to end of current line
 06/19	vim: delete useless/large whitespace with dw
-06/20	vim: go to the beginning of the current sentence with ( - to the end with )
+06/20	vim: ( goes to beginning of current sentence. ) goes to end.
 06/21	vim: search for a pattern with /pattern - reverse-search with ?pattern
-06/22	vim: go to the end of the current word with e - move to the end of the nth word with ne
-06/23	vim: go to the beginning of the next word with w - move to the beginning of the nth word with nw
-06/24	vim: go to the end of a file with G - go to the beginning with gg - show current line-stats with ^g
-06/25	vim: go to line n with nG or :n
-06/26	vim: repeat a pattern search with n - repeat it in the opposite direction with N
+06/22	vim: e goes to end of current word. go to the end of the nth word with ne
+06/23	vim: w goes to beginning of current word. go to the beginning of the nth word with nw
+06/24	vim: G goes to end of file - gg goes to beginning (same as :0) - show current line-stats with ^g
+06/25	vim: nG or :n goes to line n
+06/26	vim: n repeats pattern search - N repeats in the opposite direction
 06/27	vim: append to end of current line with A - append after cursor position with a
 06/28	vim: call vi as view to be in read-only mode
 06/29	vim: :wq writes out file and quits (ZZ or :x only write if changes were made)
@@ -200,7 +200,7 @@
 07/18	vim: ^w_ maximizes current window - ^w= makes all windows the same size
 07/19	vim: :ls list current buffers - :bn - open buffer number n in current view
 07/20	vim: open files in tabs with vim -r file1 file2 - or use :tabe file
-07/21	vim: go to next tab with :tabn or gt - go to previous tab with :tabp or gT - go to tab number n with ngt
+07/21	vim: :tabn or gt goes to the next tab - go to previous tab with :tabp or gT - go to tab number n with ngt
 07/22	vim: :set spell to turn on spellchecking (:set nospell to turn off) - on a word, use z= to get suggestions from dictionary
 07/23	vim: both ^wc and :hide will close the current window; ^wo or :only will close all but the current window
 07/24	vim: :r file inserts the contents of file; :r !command inserts the output of the command; :r inserts entire current file again
@@ -242,7 +242,7 @@
 08/29	vim: 
 08/30	vim: 
 08/31	vim: 
-09/01	vim: 
+09/01	vim: -almost- every ed (or ex) command works appropriately in vim also
 09/02	vim: 
 09/03	vim: 
 09/04	vim: 
@@ -281,7 +281,7 @@
 10/07	vim: 
 10/08	vim: 
 10/09	vim: 
-10/10	vim: 
+10/10	vim: advanced replacement: :s/foo\(.*\)bar/new\1this replaces foo135bar with new135this
 10/11	vim: 
 10/12	vim: 
 10/13	vim: 
@@ -293,7 +293,7 @@
 10/19	vim: 
 10/20	vim: 
 10/21	vim: 
-10/22	vim: 
+10/22	vim: fN finds character N in present line. FN finds in reverse
 10/23	vim: 
 10/24	vim: 
 10/25	vim: 
@@ -327,7 +327,7 @@
 11/22	vim: 
 11/23	vim: 
 11/24	vim: 
-11/25	vim: :g/pattern/s/old/new/g only replaces old with new on lines that match pattern
+11/25	vim: :g/pattern/s/old/new/g only replaces old with new on lines with pattern
 11/26	vim: 
 11/27	vim: 
 11/28	vim: 
