@@ -353,7 +353,7 @@
 12/18	vim: 
 12/19	vim: D or d$ deletes to end of line
 12/20	vim: 
-12/21	vim: 
+12/21	vim: \+ and \= for regex/replacement in vim are akin to the more common '+' and '?'
 12/22	vim: 
 12/23	vim: 
 12/24	vim: K looks up a manual page for the current word
