@@ -1,10 +1,10 @@
 01/01	vim: Read "Learning the vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
-01/02	vim: 
+01/02	vim: ^ws opens a new window split horizontally ^w^v opens a new window split vertically
 01/03	vim: 
 01/04	vim: 
 01/05	vim: 
 01/06	vim: 
-01/07	vim: 
+01/07	vim: Use ^] to jump to the definition of a word under the cursor. ^t takes you back to where you began.
 01/08	vim: 
 01/09	vim: 
 01/10	vim: 
@@ -20,7 +20,7 @@
 01/20	vim: & matches the string being replaced :%s/foo/&, bar/g replaces "foo" with "foo, bar"
 01/21	vim: 
 01/22	vim: 
-01/23	vim: 
+01/23	vim: Preceed searches when using :help with a single-quote ' to only see "set options" (e.g., :help 'exp vs :help exp)
 01/24	vim: 
 01/25	vim: 
 01/26	vim: % matches the current file being edited (when used in most : commands - :w %.new )
@@ -34,7 +34,7 @@
 02/03	vim: 
 02/04	vim: 
 02/05	vim: 
-02/06	vim: 
+02/06	vim: :options shows everything setable in your .vimrc. :set option? shows a value for that option. :set option=value sets the option to value
 02/07	vim: 
 02/08	vim: 
 02/09	vim: 
@@ -180,7 +180,7 @@
 06/28	vim: call vi as view to use read-only mode
 06/29	vim: :wq writes out file and quits (ZZ or :x only write if changes were made)
 06/30	vim: record macro named x with qx (q stops recording); replay macro with @x - replay again with @@ - replay n times with n@@ or n@x
-07/01	vim: zo opens fold, zc closes fold, zn opens all folds, zm closes all folds
+07/01	vim: zo opens fold, zc closes fold, zR opens all folds, zM closes all folds
 07/02	vim: undo a previous action with u - redo with ^r (or :red[o])
 07/03	vim: h, j, k, l move left, down, up, right
 07/04	vim: jump around the current screen using L (last line), H (top/head line), M (middle line)
@@ -193,7 +193,7 @@
 07/11	vim: after entering ex mode with : - use ^d to attempt to auto-complete (in this mode, also <TAB>)
 07/12	vim: jump to matching symbol using % - (for (), {}, etc)
 07/13	vim: replace the current character with r - use R to replace multiple characters
-07/14	vim: :help [key] shows what a key (or command) does
+07/14	vim: :help [key] shows what a key (or command) does (for many, try things like CTRL-t)
 07/15	vim: \c makes pattern-search case-insensitive /pattern\c ?pattern\c - also :set ic to ignore-case
 07/16	vim: ^ws split horizontal; ^wv split vertical; :split file - open file in split horizontal; :vsplit file - open file in vertical split
 07/17	vim: ^w^w cycles through present windows
@@ -219,7 +219,7 @@
 08/06	vim: 
 08/07	vim: 
 08/08	vim: 
-08/09	vim: 
+08/09	vim: When typing :help, press ^d to attempt to auto-complete your search
 08/10	vim: 
 08/11	vim: 
 08/12	vim: :TOhtml creates html of current file in a new file - including your current syntax-highlighting style
@@ -237,7 +237,7 @@
 08/24	vim: 
 08/25	vim: 
 08/26	vim: > indents a line (or highlighted group of lines), < outdents/shifts left
-08/27	vim: 
+08/27	vim: zn = fold none: resets 'foldenable' - opens all folds. zN = fold normal: sets 'foldenable' - all folds will be as they were before
 08/28	vim: 
 08/29	vim: 
 08/30	vim: 
@@ -333,7 +333,7 @@
 11/28	vim: 
 11/29	vim: 
 11/30	vim: 
-12/01	vim: 
+12/01	vi:
 12/02	vim: 
 12/03	vim: 
 12/04	vim:  
