@@ -1,5 +1,5 @@
 01/01	vim: Read "Learning the vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
-01/02	vim: ^ws opens a new window split horizontally ^w^v opens a new window split vertically
+01/02	vim: ^ws opens a new window split horizontally ^wv opens a new window split vertically
 01/03	vim: 
 01/04	vim: 
 01/05	vim: 
