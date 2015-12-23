@@ -2,7 +2,7 @@
 01/02	vim: ^ws opens a new window split horizontally ^wv opens a new window split vertically
 01/03	vim: 
 01/04	vim: 
-01/05	vim: 
+01/05	vim: vim -x file to use 'cryptmethod' to encrypt the saved file. set cryptmethod= in .vimrc to use a different default
 01/06	vim: 
 01/07	vim: Use ^] to jump to the definition of a word under the cursor. ^t takes you back to where you began.
 01/08	vim: 
