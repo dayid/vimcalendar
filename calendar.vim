@@ -199,7 +199,7 @@
 07/17	vim: ^w^w cycles through present windows
 07/18	vim: ^w_ maximizes current window - ^w= makes all windows the same size
 07/19	vim: :ls list current buffers - :bn - open buffer number n in current view
-07/20	vim: open files in tabs with vim -r file1 file2 - or use :tabe file
+07/20	vim: open files in tabs with vim -p file1 file2 - or use :tabe file
 07/21	vim: gt or :tabn goes to next tab - gT or :tabp goes to previous tab - Ngt goes to tab number N
 07/22	vim: :set spell to turn on spellchecking (:set nospell to turn off) - on a word, use z= to get suggestions from dictionary
 07/23	vim: both ^wc and :hide will close the current window; ^wo or :only will close all but the current window
