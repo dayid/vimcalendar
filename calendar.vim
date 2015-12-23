@@ -31,7 +31,7 @@
 01/31	vim: 
 02/01	vim: 
 02/02	vim: 
-02/03	vim: 
+02/03	vim: vim -p file [file...] to open each file in its own tab. vim -p# to open vim with # of tabs
 02/04	vim: 
 02/05	vim: 
 02/06	vim: :options shows everything setable in your .vimrc. :set option? shows a value for that option. :set option=value sets the option to value
