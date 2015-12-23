@@ -171,7 +171,7 @@
 06/19	vim: dw deletes from current place to the next word - good for deleting large whitespace
 06/20	vim: ( goes to beginning of sentence ) goes to end.
 06/21	vim: /pattern searches for pattern ?pattern reverse-searches
-06/22	vim: e or E go to end of current/next word. go to the end of the nth word with ne
+06/22	vim: e or E go to end of current/next word. go to the end of the nth word with ne. ge goes to the end of the previous word.
 06/23	vim: w or W go to beginning of next word. go to the beginning of the nth word with nw
 06/24	vim: G goes to end of file - gg goes to beginning (same as :0) - show current line-stats with ^g
 06/25	vim: nG or :n goes to line n
