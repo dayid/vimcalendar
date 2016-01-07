@@ -5,3 +5,9 @@ about features of vim. The intent here is to provide a gentle reminder of
 features so that they become more engrained in my usage.
 
 Ideally, these short snippits lend the user to inquire of :help to learn deeper.
+
+I have this placed in /home/dayid/.calendar/calendar.vim
+My /home/dayid/.calendar file has at the top:
+#include </home/dayid/.calendar/calendar.vim>
+
+My systems run 'calendar -A 1 -a' to mail out daily reminders to users.
