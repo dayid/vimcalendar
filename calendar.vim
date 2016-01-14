@@ -82,7 +82,7 @@
 03/22	vim: 
 03/23	vim: 
 03/24	vim: 
-03/25	vim: 
+03/25	vim: :source! script applies "script" against a file. Same as vim -s script file
 03/26	vim: 
 03/27	vim: 
 03/28	vim: 
