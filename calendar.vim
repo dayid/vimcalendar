@@ -81,7 +81,7 @@
 03/21	vim: 
 03/22	vim: 
 03/23	vim: 
-03/24	vim: 
+03/24	vim: record a vim script to a file with vim -w file - Since this default appends, overwrite file with vim -W file (for use with :source! / -s)
 03/25	vim: :source! script applies "script" against a file. Same as vim -s script file
 03/26	vim: 
 03/27	vim: 
