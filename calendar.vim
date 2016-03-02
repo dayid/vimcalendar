@@ -148,7 +148,7 @@
 05/27	vim: 
 05/28	vim: 
 05/29	vim: e! re-opens the current file in the state of its last write
-05/30	vim: 
+05/30	vim: :wa will write-out all buffers. :xa will save all buffers with changes and exit
 05/31	vim: ^ goes to the first character on current line 
 06/01	vim: :q! quits without saving changes - :qa! or ZQ quits all windows without saving
 06/02	vim: "xyy yanks to buffer x; "xnyy yanks next n lines to buffer x
