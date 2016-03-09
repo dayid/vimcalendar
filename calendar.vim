@@ -227,7 +227,7 @@
 08/14	vim: 
 08/15	vim: 
 08/16	vim: 
-08/17	vim: 
+08/17	vim: :noh will turn off highlighting of search-words until your next search.
 08/18	vim: 
 08/19	vim: ^wr rotates windows right/down - ^wR rotates opposite
 08/20	vim: 
