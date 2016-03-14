@@ -44,7 +44,7 @@
 02/13	vim: 
 02/14	vim: 
 02/15	vim: 
-02/16	vim: 
+02/16	vim: :E explores the current directory
 02/17	vim: 
 02/18	vim: 
 02/19	vim: 
