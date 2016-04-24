@@ -135,7 +135,7 @@
 05/14	vim: 
 05/15	vim: 
 05/16	vim: 
-05/17	vim: xp - quickly transpose two letters (thier to their, etc)
+05/17	vim: xp - quickly transpose (exchange/swap) two letters (thier to their, etc)
 05/18	vim: 
 05/19	vim: 
 05/20	vim: 
