@@ -318,7 +318,7 @@
 11/13	vim : 
 11/14	vim : 
 11/15	vim : 
-11/16	vim : 
+11/16	vim : with :set viminfo=true, after recording a macro, it is in your ~/.viminfo Keep it forever by setting let @[letter]='macro-contents' in your .vimrc (note to escape quotes as necessary)
 11/17	vim : :!command % performs command on the current file
 11/18	vim : 
 11/19	vim : 
