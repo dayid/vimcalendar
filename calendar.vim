@@ -98,7 +98,7 @@
 04/07	vim : 
 04/08	vim : 
 04/09	vim : 
-04/10	vim : 
+04/10	vim : ^o takes you to the prior "jump" location. ^i takes you to the next "jump" location. :ju[mps] shows current "jump" locations
 04/11	vim : 
 04/12	vim : 
 04/13	vim : 
