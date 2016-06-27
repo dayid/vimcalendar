@@ -12,8 +12,8 @@
 01/12	vim : :colo[rscheme] scheme changes colours (blue darkblue default delek desert elflord evening koehler morning murphy pablo peachpuff ron shine slate torte zellner)
 01/13	vim : 
 01/14	vim : 
-01/15	vim : 
-01/16	vim : 
+01/15	vim : Use current-word in command-window by pressing ^r^w (for instance: :%s/^r^w/newword/)
+01/16	vim : Use "*" to mark the current-word as the current-search term (then do :%s//newword) or just "/" to search again, etc.
 01/17	vim : 
 01/18	vim : 
 01/19	vim : 
