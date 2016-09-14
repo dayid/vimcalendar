@@ -33,7 +33,7 @@
 02/02	vim : 
 02/03	vim : vim -p file [file...] to open each file in its own tab. vim -p# to open vim with # of tabs
 02/04	vim : 
-02/05	vim : 
+02/05	vim : ]s goes to the next unknown word (with :spell on); [s goes to the previous unknown word
 02/06	vim : :options shows everything setable in your .vimrc. :set option? shows a value for that option. :set option=value sets the option to value
 02/07	vim : 
 02/08	vim : 
@@ -218,7 +218,7 @@
 08/05	vim : like :wq, :x (or ZZ) writes and quits - unlike :wq, it only writes if changes were made (file modification times may not change)
 08/06	vim : 
 08/07	vim : 
-08/08	vim : 
+08/08	vim : zg on a word will add it to your spellfile
 08/09	vim : When typing :help, press ^d to attempt to auto-complete your search
 08/10	vim : 
 08/11	vim : 
