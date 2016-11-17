@@ -18,7 +18,7 @@
 01/18	vim : 
 01/19	vim : 
 01/20	vim : & matches the string being replaced :%s/foo/&, bar/g replaces "foo" with "foo, bar"
-01/21	vim : 
+01/21	vim : ^v in insert mode inserts the control character for special keys (^M instead of a newline; ^I instead of tab; ^] instead of escape). This is useful especially for working with writing macros.
 01/22	vim : 
 01/23	vim : Preceed searches when using :help with a single-quote ' to only see "set options" (e.g., :help 'exp vs :help exp)
 01/24	vim : 
