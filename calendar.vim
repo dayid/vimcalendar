@@ -330,7 +330,7 @@
 11/25	vim : :g/pattern/s/old/new/g only replaces old with new on lines with pattern
 11/26	vim : 
 11/27	vim : 
-11/28	vim : 
+11/28	vim : Use ^r^w to insert the current word into the command-line: e.g., /^^r^w will search for the current word at the beginning of a line.
 11/29	vim : 
 11/30	vim : 
 12/01	vim :
