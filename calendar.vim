@@ -89,8 +89,8 @@
 03/29	vim : 
 03/30	vim : 
 03/31	vim : 
-04/01	vim : 
-04/02	vim : 
+04/01	vim : g; jumps to the previous edit, g, jumps to the next edit
+04/02	vim : gi jumps to where you were last in insert mode
 04/03	vim : 
 04/04	vim : 
 04/05	vim : 
@@ -142,8 +142,8 @@
 05/21	vim : 
 05/22	vim : 
 05/23	vim : 
-05/24	vim : 
-05/25	vim : 
+05/24	vim : :buffers shows the buffer list - also, :ls
+05/25	vim : :bp goes to previous buffer, :bn goes to the next buffer. :bf goes to the first buffer, :bl goes to the last buffer. :b# goes to that buffer number
 05/26	vim : gJ joins the next line to the current without adding a space - same as :j!
 05/27	vim : 
 05/28	vim : 
