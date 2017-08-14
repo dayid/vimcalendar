@@ -1,7 +1,7 @@
 01/01	vim : Read "Learning the vi and Vim editors" by Arnold Robbins, Elbert Hannah, & Linda Lamb from O'Reilly Books
 01/02	vim : ^ws opens a new window split horizontally ^wv opens a new window split vertically
 01/03	vim : :e %:h - Opens the directory containing the current-buffer/file
-01/04	vim : 
+01/04	vim : :sort sorts lines; :sort n sorts lines with numeric preference
 01/05	vim : :X encrypts the current file, vim -x file to use 'cryptmethod' to encrypt the saved file. set cryptmethod= in .vimrc to use a different default
 01/06	vim : :set key= to remove a file's existing encryption
 01/07	vim : Use ^] to jump to the definition of a word under the cursor. ^t takes you back to where you began.
