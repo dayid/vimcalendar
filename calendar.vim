@@ -28,7 +28,7 @@
 01/28	vim : 
 01/29	vim : 
 01/30	vim : :ab[breviate] abbr phrase creates an abbreviation - upon typing abbreviation and pressing a non-alphanumeric it changes - :ab lists
-01/31	vim : 
+01/31	vim : ^n and ^p in insert mode will attempt to do any-word completion for the "next" or "previous" matching word 
 02/01	vim : 
 02/02	vim : 
 02/03	vim : vim -p file [file...] to open each file in its own tab. vim -p# to open vim with # of tabs
