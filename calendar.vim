@@ -329,7 +329,7 @@
 11/24	vim : 
 11/25	vim : :g/pattern/s/old/new/g only replaces old with new on lines with pattern
 11/26	vim : 
-11/27	vim : 
+11/27	vim : In visual mode, yank selected text using 'y', then search by doing /^r0 to paste yanked register 0 (default) into your search.
 11/28	vim : Use ^r^w to insert the current word into the command-line: e.g., /^r^w will search for the current word at the beginning of a line.
 11/29	vim : In visual mode, yank to a named register (e.g., "ay) then search by doing /^r a to paste that yanked register into your search.
 11/30	vim : 
