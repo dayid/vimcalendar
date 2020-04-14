@@ -117,7 +117,7 @@
 04/26	vim : try rebinding your CAPSLOCK key to act as 'esc' - it makes changing modes in vim easier - and who uses CAPSLOCK anymore?
 04/27	vim : 
 04/28	vim : 
-04/29	vim : 
+04/29	vim : Use uppercase marks 'A-'Z to jump between files. Use lowercase marks 'a-'z within the same file.
 04/30	vim : 
 05/01	vim : 
 05/02	vim : 
@@ -127,7 +127,7 @@
 05/06	vim : :!! repeats the last system command done
 05/07	vim : 
 05/08	vim : 
-05/09	vim : 
+05/09	vim : Use :file <name> to change the name of the file being edited before writing out any contents. (useful when opening an existing file via :edit with the intention to save it as a new-file)
 05/10	vim : 
 05/11	vim : b or B go to beginning of current/prior word
 05/12	vim : 
@@ -146,7 +146,7 @@
 05/25	vim : :bp goes to previous buffer, :bn goes to the next buffer. :bf goes to the first buffer, :bl goes to the last buffer. :b# goes to that buffer number
 05/26	vim : gJ joins the next line to the current without adding a space - same as :j!
 05/27	vim : 
-05/28	vim : 
+05/28	vim : use :marks to see all current marks or :marks {arg} to see a specific mark (e.g., :marks b)
 05/29	vim : e! re-opens the current file in the state of its last write
 05/30	vim : :wa will write-out all buffers. :xa will save all buffers with changes and exit
 05/31	vim : ^ goes to the first character on current line 
@@ -224,8 +224,8 @@
 08/11	vim : 
 08/12	vim : :TOhtml creates html of current file in a new file - including your current syntax-highlighting style
 08/13	vim : 
-08/14	vim : 
-08/15	vim : 
+08/14	vim : If enabled, you can use ":term" to start a shell session within a vim window (without interrupting vim as !sh would)
+08/15	vim : If your screen is ever drawn poorly, use ^l to redraw it.
 08/16	vim : 
 08/17	vim : :noh will turn off highlighting of search-words until your next search.
 08/18	vim : 
@@ -261,7 +261,7 @@
 09/17	vim : 
 09/18	vim : 
 09/19	vim : 
-09/20	vim : 
+09/20	vim : z[hjkl] will shift the view in each direction
 09/21	vim : 
 09/22	vim : 
 09/23	vim : 
