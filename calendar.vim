@@ -44,7 +44,7 @@
 02/13	vim : 
 02/14	vim : 
 02/15	vim : 
-02/16	vim : :E explores the current directory
+02/16	vim : :E explores the current directory, :Sexplore Splits & Explores, :Vexplore Vertical-Splits & Explores, :Texpore Expores in new tab. :Rexplore "Returns" from explore.
 02/17	vim : 
 02/18	vim : 
 02/19	vim : 
@@ -223,18 +223,18 @@
 08/10	vim : 
 08/11	vim : 
 08/12	vim : :TOhtml creates html of current file in a new file - including your current syntax-highlighting style
-08/13	vim : 
+08/13	vim : save numbered views with :mkview # load views with :loadview # (e.g., :mkview 1 with line numbers and folds, and perhaps :mkview 2 with those off, then you can loadview 1 & loadview 2 to switch styles/views)
 08/14	vim : If enabled, you can use ":term" to start a shell session within a vim window (without interrupting vim as !sh would)
 08/15	vim : If your screen is ever drawn poorly, use ^l to redraw it.
-08/16	vim : 
+08/16	vim : save views to file via :mkview <filepath> load views from file via :source <filepath>
 08/17	vim : :noh will turn off highlighting of search-words until your next search.
-08/18	vim : 
+08/18	vim : See column/line/word/byte stats with: g^g (g, then ctrl+g). Can also be done with a section highlighted using visual mode.
 08/19	vim : ^wr rotates windows right/down - ^wR rotates opposite
 08/20	vim : 
-08/21	vim : 
+08/21	vim : :oldfiles displays files with marks stored. Use :browse oldfiles to be prompted via numbers for which to open.
 08/22	vim : 
 08/23	vim : 
-08/24	vim : 
+08/24	vim : As with ^z, you can also use :suspend to suspend vim and come back to it later using your shell's job-control (e.g., 'jobs', 'fg')
 08/25	vim : 
 08/26	vim : > indents a line (or highlighted group of lines), < outdents/shifts left
 08/27	vim : zn = fold none: resets 'foldenable' - opens all folds. zN = fold normal: sets 'foldenable' - all folds will be as they were before
@@ -360,7 +360,7 @@
 12/25	vim : 
 12/26	vim : 
 12/27	vim : :g/old/s//new/g is the same as :%s/old/new/g
-12/28	vim : 
-12/29	vim : 
+12/28	vim : Resize window width using ^w< and ^w> (Try: ^w10<) Resize window height using ^w+ & ^w- (Try: ^w15-)
+12/29	vim : Equalize window sizes using ^w= Set window width with ^w| (Defaults to max - Try: ^w30|) Set window height with ^w_ (Defaults to max - Try: ^w25_)
 12/30	vim : 
 12/31	vim : ^^ (ctrl+shift+6) switches to the previous open file (like :prev)
