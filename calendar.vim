@@ -197,7 +197,7 @@
 07/15	vim : \c makes pattern-search case-insensitive /pattern\c ?pattern\c - also :set ic to ignore-case
 07/16	vim : ^ws split horizontal; ^wv split vertical; :split file - open file in split horizontal; :vsplit file - open file in vertical split
 07/17	vim : ^w^w cycles through present windows
-07/18	vim : ^w_ maximizes current window - ^w= makes all windows the same size
+07/18	vim : 
 07/19	vim : :ls list current buffers - :bn - open buffer number n in current view
 07/20	vim : open files in tabs with vim -p file1 file2 - or use :tabe file
 07/21	vim : gt or :tabn goes to next tab - gT or :tabp goes to previous tab - Ngt goes to tab number N
