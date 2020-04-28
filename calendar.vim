@@ -162,7 +162,7 @@
 06/10	vim : open a file to a specific line number n with vi +n file
 06/11	vim : open a file to a first-occurence of a pattern with vi +/pattern file
 06/12	vim : recover older deletions with "np where n is 1-9, 9 being the oldest deletion; cycle through them with u (undo) then . (repeat)
-06/13	vim : whole-screen motions: ^b=back, ^f=forward, ^d=down 1/2, ^u=up 1/2
+06/13	vim : whole-screen motions: ^b=back, ^f=forward, ^d=down, ^u=up (See :help SCROLL)
 06/14	vim : ~ changes case of letter [visual]~ changes for selection g~~ or g~g~ change current line
 06/15	vim : gv re-selects the prior visual-mode selection
 06/16	vim : z[enter] makes current-line top of screen, z. makes it center, z- makes it bottom
@@ -220,7 +220,7 @@
 08/07	vim : 
 08/08	vim : zg on a word will add it to your spellfile
 08/09	vim : When typing :help, press ^d to attempt to auto-complete your search
-08/10	vim : 
+08/10	vim : motion commands b and w work for words; B and W work for WORDS. (See :help WORD)
 08/11	vim : 
 08/12	vim : :TOhtml creates html of current file in a new file - including your current syntax-highlighting style
 08/13	vim : save numbered views with :mkview # load views with :loadview # (e.g., :mkview 1 with line numbers and folds, and perhaps :mkview 2 with those off, then you can loadview 1 & loadview 2 to switch styles/views)
