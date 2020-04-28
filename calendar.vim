@@ -349,7 +349,7 @@
 12/14	vim : 
 12/15	vim : 
 12/16	vim : 
-12/17	vim : ^p while typing a word begins prediction (in insert mode) referencing words from known files. ^n goes to next, ^p to previous.
+12/17	vim : 
 12/18	vim : 
 12/19	vim : D or d$ deletes to end of line
 12/20	vim : 
