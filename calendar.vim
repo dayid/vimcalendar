@@ -129,7 +129,7 @@
 05/08	vim : 
 05/09	vim : Use :file <name> to change the name of the file being edited before writing out any contents. (useful when opening an existing file via :edit with the intention to save it as a new-file)
 05/10	vim : 
-05/11	vim : b or B go to beginning of current/prior word
+05/11	vim : b or B go to beginning of current/prior word. As with any motion, add commands or numbers with it: 3b goes "back" 3. d3b deletes 3 back. db deletes backwards
 05/12	vim : 
 05/13	vim : 
 05/14	vim : 
@@ -349,7 +349,7 @@
 12/14	vim : 
 12/15	vim : 
 12/16	vim : 
-12/17	vim : 
+12/17	vim : ^p while typing a word begins prediction (in insert mode) referencing words from known files. ^n goes to next, ^p to previous.
 12/18	vim : 
 12/19	vim : D or d$ deletes to end of line
 12/20	vim : 
@@ -357,7 +357,7 @@
 12/22	vim : 
 12/23	vim : 
 12/24	vim : K looks up a manual page for the current word
-12/25	vim : 
+12/25	vim : use :bdelete # to delete a buffer
 12/26	vim : 
 12/27	vim : :g/old/s//new/g is the same as :%s/old/new/g
 12/28	vim : Resize window width using ^w< and ^w> (Try: ^w10<) Resize window height using ^w+ & ^w- (Try: ^w15-)
