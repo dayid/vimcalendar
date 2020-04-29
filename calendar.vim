@@ -145,7 +145,7 @@
 05/24	vim : :buffers shows the buffer list - also, :ls
 05/25	vim : :bp goes to previous buffer, :bn goes to the next buffer. :bf goes to the first buffer, :bl goes to the last buffer. :b# goes to that buffer number
 05/26	vim : gJ joins the next line to the current without adding a space - same as :j!
-05/27	vim : 
+05/27	vim : :abbreviate shows abbreviations. Set an abbreviation as :abbreviate teh the to auto-replace "teh" with "the". (help :abbreviate & :unabbreviate)
 05/28	vim : use :marks to see all current marks or :marks {arg} to see a specific mark (e.g., :marks b)
 05/29	vim : e! re-opens the current file in the state of its last write
 05/30	vim : :wa will write-out all buffers. :xa will save all buffers with changes and exit
