@@ -24,7 +24,7 @@
 01/24	vim : 
 01/25	vim : 
 01/26	vim : % matches the current file being edited (when used in most : commands - :w %.new )
-01/27	vim : 
+01/27	vim : Enable set showmatch to have matching punctuation highlighted when you open/close code. (See :help showmatch)
 01/28	vim : 
 01/29	vim : 
 01/30	vim : :ab[breviate] abbr phrase creates an abbreviation - upon typing abbreviation and pressing a non-alphanumeric it changes - :ab lists
