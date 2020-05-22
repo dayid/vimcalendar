@@ -165,7 +165,7 @@
 06/13	vim : whole-screen motions: ^b=back, ^f=forward, ^d=down, ^u=up (See :help SCROLL)
 06/14	vim : ~ changes case of letter [visual]~ changes for selection g~~ or g~g~ change current line
 06/15	vim : gv re-selects the prior visual-mode selection
-06/16	vim : z[enter] makes current-line top of screen, z. makes it center, z- makes it bottom
+06/16	vim : z[enter] makes current-line top of screen, z. makes it center, z- makes it bottom (see :help scroll)
 06/17	vim : 0 goes to beginning of current line
 06/18	vim : $ goes to end of current line
 06/19	vim : dw deletes from current place to the next word - good for deleting large whitespace
@@ -216,7 +216,7 @@
 08/03	vim : replace foo with bar :s/foo/bar/ entire line :s/foo/bar/g entire file :%s/foo/bar/g entire file/confirm :%s/foo/bar/gc
 08/04	vim : Q enters ex mode; :vi[sual] returns you to vi
 08/05	vim : like :wq, :x (or ZZ) writes and quits - unlike :wq, it only writes if changes were made (file modification times may not change)
-08/06	vim : 
+08/06	vim : To use a normal mode command while in insert mode - instead of 'esc' from insert, use ^o and then your normal mode command. (:help i_ctrl-O)
 08/07	vim : 
 08/08	vim : zg on a word will add it to your spellfile
 08/09	vim : When typing :help, press ^d to attempt to auto-complete your search
@@ -269,7 +269,7 @@
 09/25	vim : 
 09/26	vim : :r!command % inserts the output of command being done on the current file into the current file
 09/27	vim : 
-09/28	vim : 
+09/28	vim : :inoremap <F1> <C-o>:w<CR> makes F1 write your file when you're in insert mode.
 09/29	vim : 
 09/30	vim : 
 10/01	vim : 
@@ -323,7 +323,7 @@
 11/18	vim : 
 11/19	vim : 
 11/20	vim : 
-11/21	vim : 
+11/21	vim : access the command-line window with q:, q/, q? (:help cmdline-window)
 11/22	vim : 
 11/23	vim : 
 11/24	vim : 
