@@ -8,7 +8,7 @@
 01/08	vim : 
 01/09	vim : While in insert mode, use ^r<register> to paste in the contents of <register>
 01/10	vim : 
-01/11	vim : 
+01/11	vim : Use ^w[HJKL] to make the current window the left/bottom/top/right and use full width or height of screen.
 01/12	vim : :colo[rscheme] scheme changes colours (blue darkblue default delek desert elflord evening koehler morning murphy pablo peachpuff ron shine slate torte zellner)
 01/13	vim : 
 01/14	vim : 
@@ -36,7 +36,7 @@
 02/05	vim : ]s goes to the next unknown word (with :spell on); [s goes to the previous unknown word
 02/06	vim : :options shows everything setable in your .vimrc. :set option? shows a value for that option. :set option=value sets the option to value
 02/07	vim : 
-02/08	vim : 
+02/08	vim : ^wT to move the current window to a new tab page.
 02/09	vim : 
 02/10	vim : :s//~/ replaces the last search-pattern with the last replacement pattern
 02/11	vim : :~ replaces the last search-pattern with the last replacement pattern - :~n redoes for the next n lines
