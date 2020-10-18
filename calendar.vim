@@ -272,7 +272,7 @@
 09/28	vim : :inoremap <F1> <C-o>:w<CR> makes F1 write your file when you're in insert mode.
 09/29	vim : 
 09/30	vim : 
-10/01	vim : 
+10/01	vim : :e \# will open the previously opened file from a session. ctrl-^ will do the same. Useful for switching between two files.
 10/02	vim : 
 10/03	vim : 
 10/04	vim : 
