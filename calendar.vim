@@ -75,7 +75,7 @@
 03/15	vim : 
 03/16	vim : 
 03/17	vim : 
-03/18	vim : 
+03/18	vim : use "gq" to quickly format a line. Useful for line-wrapping to textwidth and other changes. See :help gq for more information.
 03/19	vim : 
 03/20	vim : 
 03/21	vim : 
