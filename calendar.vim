@@ -73,8 +73,8 @@
 03/13	vim : 
 03/14	vim : 
 03/15	vim : 
-03/16	vim : 
-03/17	vim : 
+03/16	vim : ^w + or ^w - resizes a split window's height. e.g., try: "20 ^w -"
+03/17	vim : ^w < or ^w > resizes a split window's width. e.g., try: "20 ^w >"
 03/18	vim : use "gq" to quickly format a line. Useful for line-wrapping to textwidth and other changes. See :help gq for more information.
 03/19	vim : 
 03/20	vim : 
