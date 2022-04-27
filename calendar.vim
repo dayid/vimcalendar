@@ -69,7 +69,7 @@
 03/09	vim : 
 03/10	vim : 
 03/11	vim : 
-03/12	vim : 
+03/12	vim : :cd /path to change current present-working-directory. :pwd to see it
 03/13	vim : 
 03/14	vim : 
 03/15	vim : 
