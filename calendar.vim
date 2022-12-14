@@ -56,7 +56,7 @@
 02/25	vim : 
 02/26	vim : 
 02/27	vim : 
-02/28	vim : 
+02/28	vim : Use 'o' during visual selection to jump between the "corners" of the selection.
 02/29	vim : g?? flips current line with ROT13 - g?[motion] and [visual]g? will flip those selections
 03/01	vim : 
 03/02	vim : 
