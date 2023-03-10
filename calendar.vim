@@ -122,7 +122,7 @@
 05/01	vim : 
 05/02	vim : 
 05/03	vim : 
-05/04	vim : 
+05/04	vim : Output what is setting a value by using :verbose set option?; e.g., `:verbose set tabstop?`
 05/05	vim : 
 05/06	vim : :!! repeats the last system command done
 05/07	vim : 
