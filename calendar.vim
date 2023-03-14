@@ -5,7 +5,7 @@
 01/05	vim : :X encrypts the current file, vim -x file to use 'cryptmethod' to encrypt the saved file. set cryptmethod= in .vimrc to use a different default
 01/06	vim : :set key= to remove a file's existing encryption
 01/07	vim : Use ^] to jump to the definition of a word under the cursor. ^t takes you back to where you began.
-01/08	vim : 
+01/08	vim :  :mkvimrc will create a .vimrc for you with your current settings.
 01/09	vim : While in insert mode, use ^r<register> to paste in the contents of <register>
 01/10	vim : 
 01/11	vim : Use ^w[HJKL] to make the current window the left/bottom/top/right and use full width or height of screen.
