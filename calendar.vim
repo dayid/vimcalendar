@@ -57,11 +57,11 @@
 02/26	vim : 
 02/27	vim : 
 02/28	vim : Use 'o' during visual selection to jump between the "corners" of the selection.
-02/29	vim : g?? flips current line with ROT13 - g?[motion] and [visual]g? will flip those selections
-03/01	vim : 
+02/29	vim : :smile :]
+03/01	vim : g?? flips current line with ROT13 - g?[motion] and [visual]g? will flip those selections
 03/02	vim : 
 03/03	vim : :%&g redoes the prior command on the whole file (:%[previous]g[lobal])
-03/04	vim : 
+03/04	vim : Use ^n (and ^p) while in insert mode to use completion. (:help complete)
 03/05	vim : 
 03/06	vim : 
 03/07	vim : 
