@@ -63,7 +63,7 @@
 03/03	vim : :%&g redoes the prior command on the whole file (:%[previous]g[lobal])
 03/04	vim : Use ^n (and ^p) while in insert mode to use completion. (:help complete)
 03/05	vim : 
-03/06	vim : Use :args <match> to set arguments to operate on: for example, all *.md in a directory `:args dir/*.md`
+03/06	vim : Use :args <match> to set arguments to operate on: for example, all *.md `:args *.md`
 03/07	vim : :argdo <command> will take command-action on each thing in the :args. For example: :argdo tabe
 03/08	vim : 
 03/09	vim : 
